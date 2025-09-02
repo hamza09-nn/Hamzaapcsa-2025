@@ -7,15 +7,8 @@ class Math {
     System.out.println("Hello world!");
 
     //We will be using System.out.println and System.out.print throughout the year. Try using both below to see what the difference is!
-
-
-
-
-
-
-    //ANSWER: 
-
-
+    System.out.println("Hello world!");
+    System.out.print("yo");
 
     //Throughout the year this year we will need to store information. For that we will be using VARIABLES!
 
@@ -26,14 +19,16 @@ class Math {
     //For AP we need to know: int, double, boolean
 
     //List examples of the types below and give definition
-    //int (integer): 
-    //double:
-    //boolean:
+    //int (integer): store whole number
+    //double: store decimal
+    //boolean:store true or false yes or no statements
 
     //For now we are just going to work with primitive
 
     //Create 3 variables of each of the above types (USE GOOD CODING PRACTICE WHEN CREATING THE VARIABLES
-
+     int x =5;
+     boolean y = false;
+     double z = 5.3;
 
 
 
@@ -46,7 +41,24 @@ class Math {
     //Try doing some math operations with numbers. How can we check to see if the math worked?
 
     //Create codes that will print the following:
+    System.out.println("Odd integers from 1 to 100");
+    for (int i = 1; i<= 100; i++) {
+      if (i % 2 !=0) {
+        System.out.print(i + " ");
+      }
+    }
 
+    System.out.println("Numbers ending in 0 from 1000 down to 0:");
+    for (int i =1000; i>=0; i-=10 ){
+      if (i != 0) {
+        System.out.print(i + " ");
+      }
+    }
+
+    System.out.println("Multiples of 3 from 1 to 100:");
+    for (int i =3; i<= 100; i+=3) {
+      System.out.print(i + " ");
+    }
     //Odd integers from 1 to 100, inclusive of both
 
 
